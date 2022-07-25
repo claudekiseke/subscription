@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        <h1>Display</h1>
         <div>
           <span>Flex</span>
         <Switch />
