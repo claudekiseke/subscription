@@ -1,7 +1,7 @@
 import Link from "next/link";
-import styles from "./PricingCard.module.scss";
+import styles from "./Card.module.scss";
 
-export default function PricingCard() {
+export default function Card() {
     <>
     hello
     <div className={styles.card}>

@@ -1,5 +1,5 @@
 import Switch from '../components/Switch/Switch'
-import PricingCard from '../components/PricingCard/PricingCard'
+import Card from '../components/Card/Card'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -7,9 +7,9 @@ export default function Home() {
     <div className={styles.container}>
       <main className={styles.main}>
         <Switch />
-        <PricingCard />
-        <PricingCard />
-        <PricingCard />
+        <Card />
+        <Card />
+        <Card />
       </main>
 
         
