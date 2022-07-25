@@ -1,6 +1,6 @@
 import styles from "./Header.module.scss";
 
-export default Header = () => {
+export default function Header() {
     return (
         <nav>
             <ul className={styles.left}>
