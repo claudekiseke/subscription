@@ -13,5 +13,5 @@ export default Header = () => {
                 <li><a href="#">CSS Tricks</a></li>
             </ul>
         </nav>
-    )
+    );
 }
