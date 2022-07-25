@@ -14,7 +14,7 @@ export default function PricingCard() {
             <li>Store up to 20 songs</li>
         </ul>
         <Link href="/">
-            <a>{buttonText}</a>
+            <a>Get Started Free</a>
         </Link>
     </div>
 }
