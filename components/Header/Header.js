@@ -1,10 +1,13 @@
+import Link from "next/link";
 import styles from "./Header.module.scss";
 
 export default function Header() {
     return (
         <nav className={styles.nav}>
             <ul className={styles.left}>
-                <li><a href="#">Unstyled</a></li>
+                <Link href="/">
+                    <a>Unstyled</a>
+                </Link>
             </ul>
             <ul className={styles.right}>
                 <li><a href="#">Some</a></li>
