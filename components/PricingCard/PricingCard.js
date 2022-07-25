@@ -1,4 +1,4 @@
-import Link from "next/Link";
+import Link from "next/link";
 import styles from "./PricingCard.module.scss";
 
 export default function PricingCard( {title}, {price}, {feature}, {buttonText} ) {
