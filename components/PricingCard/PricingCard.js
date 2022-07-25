@@ -2,8 +2,9 @@ import Link from "next/link";
 import styles from "./PricingCard.module.scss";
 
 export default function PricingCard() {
+    <>
+    hello
     <div className={styles.card}>
-        hello
         <h2>Basic</h2>
         <h3>£15</h3>
         <p>Free plan for all users.</p>
@@ -18,4 +19,5 @@ export default function PricingCard() {
             <a>Get Started Free</a>
         </Link> */}
     </div>
+    </>
 }
