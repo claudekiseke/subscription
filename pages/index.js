@@ -1,6 +1,6 @@
 import Switch from '../components/Switch/Switch'
 import Card from '../components/Card/Card'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/Home.module.scss'
 import Header from '../components/Header/Header'
 
 export default function Home() {
