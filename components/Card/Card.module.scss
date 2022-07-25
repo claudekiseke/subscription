@@ -18,10 +18,19 @@
     ul {
       margin-bottom: 40px;
       list-style: none;
-      padding-left: 0;
       
       li {
         margin-bottom: 10px;
+
+        ::before {
+          content: "";
+          display: block;
+          background: url("../../assets/tick.svg") no-repeat;
+          width: 20px;
+          height: 20px;
+          float: left;
+          margin: 0 6px 0 0;
+        }
       }
     }
     a {
