@@ -14,9 +14,9 @@ export default function Card() {
             <li>Store up to 20 songs</li>
             <li>Store up to 20 songs</li>
         </ul>
-        {/* <Link href="/">
+        <Link href="/">
             <a>Get Started Free</a>
-        </Link> */}
+        </Link>
     </div>
     );
 }
