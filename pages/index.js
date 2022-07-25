@@ -22,7 +22,7 @@ export default function Home() {
 
         <div className={styles.grid}>
 
-          <PricingCard title="Basic" price="£15" description="Free plan for all users." feature="Store up to 20 songs" buttonText="Get started Free" />
+          <PricingCard title="Basic" price="£15"  buttonText="Get started Free" />
 
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
