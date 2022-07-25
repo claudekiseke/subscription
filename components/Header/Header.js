@@ -11,7 +11,7 @@ export default function Header() {
             </ul>
             <ul className={styles.right}>
                 <li><a href="#">Some</a></li>
-                <li><a href="#">Button</a></li>
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Links</a></li>
                 <li><a href="#">CSS Tricks</a></li>
             </ul>
