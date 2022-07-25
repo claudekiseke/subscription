@@ -3,6 +3,7 @@ import styles from "./PricingCard.module.scss";
 
 export default function PricingCard() {
     <div className={styles.card}>
+        hello
         <h2>Basic</h2>
         <h3>£15</h3>
         <p>Free plan for all users.</p>
