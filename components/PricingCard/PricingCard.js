@@ -1,10 +1,10 @@
 import Link from "next/link";
 import styles from "./PricingCard.module.scss";
 
-export default function PricingCard( {title}, {price} ) {
+export default function PricingCard() {
     <div className={styles.card}>
-        <h2>{title}</h2>
-        <h3>{price}</h3>
+        <h2>Basic</h2>
+        <h3>£15</h3>
         <p>Free plan for all users.</p>
         <ul>
             <li>Store up to 20 songs</li>
