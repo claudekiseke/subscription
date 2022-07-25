@@ -2,8 +2,7 @@ import Link from "next/link";
 import styles from "./Card.module.scss";
 
 export default function Card() {
-    <>
-    hello
+    return (
     <div className={styles.card}>
         <h2>Basic</h2>
         <h3>£15</h3>
@@ -19,5 +18,5 @@ export default function Card() {
             <a>Get Started Free</a>
         </Link> */}
     </div>
-    </>
+    );
 }
