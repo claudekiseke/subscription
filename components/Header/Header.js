@@ -2,7 +2,7 @@ import styles from "./Header.module.scss";
 
 export default function Header() {
     return (
-        <nav>
+        <nav className={styles.nav}>
             <ul className={styles.left}>
                 <li><a href="#">Unstyled</a></li>
             </ul>
