@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={styles.main}>
+        <div>
+          <span>Flex</span>
         <Switch />
+          <span>Grid</span>
+        </div>
         <Card />
         <Card />
         <Card />
