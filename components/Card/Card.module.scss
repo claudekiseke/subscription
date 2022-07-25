@@ -22,10 +22,10 @@
       li {
         margin-bottom: 10px;
 
-        ::before {
+        &::before {
           content: "";
           display: block;
-          background: url("../../assets/tick.svg") no-repeat;
+          background: url("../../assets/") no-repeat;
           width: 20px;
           height: 20px;
           float: left;
